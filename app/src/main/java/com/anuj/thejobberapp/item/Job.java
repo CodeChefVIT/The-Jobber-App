@@ -14,6 +14,11 @@ public class Job {
         price=MoneyOffered;
         bids=0;
     }
+    public Job(String Description, float MoneyOffered){
+        Desc=Description;
+        price=MoneyOffered;
+        bids=0;
+    }
 
     public String getDesc() {
         return Desc;

@@ -27,6 +27,5 @@ public class ChatFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState){
         super.onViewCreated(view, savedInstanceState);
         TextView textView = view.findViewById(R.id.text_message);
-        textView.setText(R.string.title_notifications);
     }
 }
